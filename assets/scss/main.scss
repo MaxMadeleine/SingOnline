@@ -15,7 +15,7 @@ body {
   font-family: "Smooch Sans", sans-serif; /*"SMOOCH SANS" IS A GOOGLE FONT*/
   font-weight: 400;
   margin: auto;
-  background-color: $color-bg-dark;
+  background-color: red !important;
 }
 
 /* #endregion MAIN SHIT  */
@@ -82,13 +82,18 @@ body {
     text-decoration: none;
     color: #fff;
   }
-  img {
+  .footerLogo img {
+    width: 50vw;
+    height: auto;
+  }
+  body{
+    background-color: red;
   }
 }
 
 /* #endregion */
 /* #region MEDIA QUERIES  */
-//makes header txt smaler for phones
+//makes header txt smaller for phones
 @media (max-width: 700px) {
   .nav {
     flex-direction: column;
